@@ -31,7 +31,7 @@ const tempResponse = {
 export async function getAppointments(req, res) {
   try {
     //set header before response
-    res.status(200).send(tempResponse);
+    res.status(200).send(data);
   } catch (err) {
     next(err);
   }
